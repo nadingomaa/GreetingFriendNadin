@@ -7,19 +7,19 @@ import android.widget.TextView;
 
 public class GreetingMsg extends AppCompatActivity {
 
-    TextView mGreetMsg;
+    //TextView mGreetMsg;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_greeting_msg);
-        mGreetMsg=findViewById(R.id.greetMsg);
+        //mGreetMsg=findViewById(R.id.greetMsg);
         // to transfer data
-        Intent intent = getIntent();
-        Bundle myIntentBundle = intent.getExtras();
-        String saveContent = myIntentBundle.getString("Data");
+        //Intent intent = getIntent();
+        //Bundle myIntentBundle = intent.getExtras();
+        //String saveContent = myIntentBundle.getString("Data");
 
 
-        mGreetMsg.setText("Hello"+" "+saveContent);
+
 
 
 
